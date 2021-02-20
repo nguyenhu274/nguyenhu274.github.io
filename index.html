@@ -1,6 +1,22 @@
 <!Document html>
 <html>
 <head>
+  <style>
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+</style>
 <title> A teapot's world </title>
 </head>
 <body>
@@ -8,5 +24,13 @@
   <h1>Hello!</h1>
   <h3>I am a teapot.</h3>
   <p>Welcome to my page.</p>
+  <p>Today I will introduce to you <a href="https://www.teaclass.com/lesson_0102.html"> five different types of tea</a> and their benefits.</p>
+    <div class="grid-container">
+  <div><a href="https://www.healthline.com/nutrition/white-tea-benefits">1. White Tea</a></div>
+  <div><a href="https://www.healthline.com/nutrition/top-10-evidence-based-health-benefits-of-green-tea">2. Green Tea</a></div>
+  <div><a href="https://www.healthline.com/nutrition/oolong-tea-benefits">3. Oolong Tea</a></div>
+  <div><a href="https://www.healthline.com/nutrition/black-tea-benefits">4. Black Tea</a></div>
+  <div><a href="https://www.healthline.com/health/food-nutrition/pu-erh-tea-benefits">5. Pu'erh Tea</a></div>
+</div>
 </header>
   
