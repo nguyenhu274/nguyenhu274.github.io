@@ -27,3 +27,26 @@
     flex-direction: column;
   }
 }
+
+body {
+background-inmage: https://www.pinterest.com/pin/682013937315154485/;
+padding: 2em;       /* Padding is 2 times the current zoom level font size */
+}
+
+p {
+font-size: 50px;
+font-family: cursive;
+font-style: italic;
+color: brow;
+text-align: center;
+}
+
+img {
+width: 300px;
+height: 100px;
+margin: 10px;
+border-style: solid;
+border-color:
+border-radius: 10px;
+border-width: 10px;
+}
