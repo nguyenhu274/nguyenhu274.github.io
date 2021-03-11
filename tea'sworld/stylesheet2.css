@@ -16,7 +16,7 @@
 }
 
 .flex-item-right {
-  background-color: dodgerblue;
+  background-color: brow;
   padding: 10px;
   flex: 50%;
 }
@@ -37,13 +37,13 @@ p {
 font-size: 50px;
 font-family: cursive;
 font-style: italic;
-color: brow;
 text-align: center;
 }
 
 img {
 width: 500px;
 height: 600px;
+float: center;
 }
 
 h1 {
