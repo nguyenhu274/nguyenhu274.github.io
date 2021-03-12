@@ -16,7 +16,7 @@
 }
 
 .flex-item-right {
-  background-color: brow;
+  background-color: #CC7DFA;
   padding: 10px;
   flex: 50%;
 }
@@ -29,7 +29,7 @@
 }
 
 body {
-background-inmage: https://www.pinterest.com/pin/682013937315154485/;
+background-inmage: ;
 padding: 2em;       /* Padding is 2 times the current zoom level font size */
 }
 
@@ -43,7 +43,9 @@ text-align: center;
 img {
 width: 500px;
 height: 600px;
-float: center;
+align: center;
+  display:block;
+  margin: 0 auto;
 }
 
 h1 {
@@ -51,4 +53,9 @@ text-align: center;
 }
 h3 {
 text-align: center;
+}
+header{
+  justify-content: center;
+  align-item: center;
+  display: block;
 }
