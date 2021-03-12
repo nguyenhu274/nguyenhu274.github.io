@@ -10,13 +10,13 @@
 }
 
 .flex-item-left {
-  background-color: #f1f1f1;
+  background-color: #6FC7C3;
   padding: 10px;
   flex: 50%;
 }
 
 .flex-item-right {
-  background-color: #CC7DFA;
+  background-color: #E5FBAD;
   padding: 10px;
   flex: 50%;
 }
@@ -34,10 +34,11 @@ padding: 2em;       /* Padding is 2 times the current zoom level font size */
 }
 
 p {
-font-size: 50px;
+font-size: 20px;
 font-family: cursive;
 font-style: italic;
 text-align: center;
+color: #3C4C7A;
 }
 
 img {
@@ -50,9 +51,15 @@ align: center;
 
 h1 {
 text-align: center;
+  font-size: 40px;
+font-family: cursive;
+  color: #337A63;
 }
 h3 {
 text-align: center;
+  font-size: 30px;
+font-family: cursive;
+  color: #C7783C;
 }
 header{
   justify-content: center;
