@@ -1,12 +1,18 @@
-p {
-font-size: 50px;
-font-family: cursive;
-font-style: italic;
-color: brown;
-text-align: center;
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
 }
 
-h1 {
-text-decoration: underline;
-color: ;
+.flex-item-left {
+  background-color: #6FC7C3;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: #E5FBAD;
+  padding: 10px;
+  flex: 50%;
 }
