@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html>
+
+ <head>
+    <title> Kitchen tools and gifts </title>
+    <link rel="stylesheet" href="stylesheettools.css">
+ </head>
+ 
+ <body>
+    <h1> Looking for the best new blender or tips on how to get the greatest cookware deals? Look no further.<h1>
+ 
+    <div class="flex-container">
+
+      <div class="flex-item-left">
+        <img src="https://i.etsystatic.com/10516948/r/il/be81be/1699380446/il_1588xN.1699380446_7s04.jpg" alt="Personalized Homemade Dog Treats Gift">
+        <a href="https://www.etsy.com/listing/662204155/personalized-homemade-dog-treats-gift?zanpid=10690_1620292266_d22534111ae76a50f4ca6dad0c19cfb0&utm_medium=affiliate&utm_source=affiliate_window&utm_campaign=row_buyer&utm_content=78888&awc=10690_1620292266_d22534111ae76a50f4ca6dad0c19cfb0"> Personalized Homemade Dog Treats Gift </a>
+          </div>
+
+      <div class="flex-item-right">
+        <img src="" alt="">
+        <a href="">  </a>
+          </div>
+
+      <div class="flex-item-left">
+        <img src="" alt="">
+        <a href="">  </a>
+          </div>
+
+      <div class="flex-item-right">
+        <img src="" alt="">
+        <a href="">  </a>
+          </div>
+
+      <div class="flex-item-left">
+        <img src="" alt="">
+        <a href="">  </a>
+          </div>
+
+      <div class="flex-item-right">
+        <img src="" alt="">
+        <a href="">  </a>
+          </div>
+    </div>
+    
+ </body>
+ 
+</html>
+ 
