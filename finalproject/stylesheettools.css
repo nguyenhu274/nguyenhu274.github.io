@@ -1,1 +1,18 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+}
 
+.flex-item-left {
+  background-color: #6FC7C3;
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  background-color: #E5FBAD;
+  padding: 10px;
+  flex: 50%;
+}
