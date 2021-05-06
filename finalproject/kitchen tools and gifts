@@ -11,7 +11,6 @@
     <h1> Looking for the best for your kitchen? Look no further.<h1>
  
     <div class="flex-container">
-
       <div class="flex-item-left">
         <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/dads-grilling-gifts-1591901263.png?crop=1.00xw:0.502xh;0,0.242xh&resize=980:*" alt="Grilling Gifts">
         <a href="https://www.delish.com/kitchen-tools/cookware-reviews/g4175/fathers-day-grilling-gifts/"> Grilling Gifts </a>
@@ -21,17 +20,20 @@
         <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/coffee-espresso-1620160153.jpg?crop=1.00xw:1.00xh;0,0&resize=980:*" alt="Espresso Machine">
         <a href="https://www.delish.com/kitchen-tools/cookware-reviews/a26945092/best-espresso-machines/"> Espresso Machine </a>
           </div>
-
-      <div class="flex-item-left">
-        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bestgrillcleaners-1594063833.jpg?crop=1.00xw:0.503xh;0,0.271xh&resize=980:*" alt="Grill Cleaners">
-        <a href="https://www.delish.com/kitchen-tools/cookware-reviews/g32945021/best-grill-cleaner/"> Grill Cleaners </a>
-          </div>
-
+    </div>
+    
+    <div class="flex-container">
       <div class="flex-item-right">
         <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/winecoolr-1591737421.jpg?crop=1.00xw:0.503xh;0,0.277xh&resize=980:*" alt="Wine Coolers And Fridges">
         <a href="https://www.delish.com/kitchen-tools/cookware-reviews/g32779593/best-wine-coolers/"> Wine Coolers And Fridges </a>
           </div>
-
+      <div class="flex-item-left">
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/bestgrillcleaners-1594063833.jpg?crop=1.00xw:0.503xh;0,0.271xh&resize=980:*" alt="Grill Cleaners">
+        <a href="https://www.delish.com/kitchen-tools/cookware-reviews/g32945021/best-grill-cleaner/"> Grill Cleaners </a>
+          </div>
+    </div>
+    
+    <div class="flex-container">
       <div class="flex-item-left">
         <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/coffee-frenchpress-1620159944.jpg?crop=1.00xw:0.771xh;0,0.111xh&resize=980:*" alt="French Press Coffee Makers">
         <a href="https://www.delish.com/kitchen-tools/cookware-reviews/g32811430/best-french-press-coffee-makers/"> French Press Coffee Makers </a>
@@ -46,4 +48,3 @@
  </body>
  
 </html>
- 
