@@ -5,48 +5,36 @@
         <link href="stylesheet.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="http://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
+
     <body>
-      <section>
+      <section class="header">
             <nav>
-                <div class="nav-links">
+                <div class="nav-links"id="navLinks">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
                     <ul>
                         <li><a href="index.html"> HOME </a></li>
-                          <!-- <ul>
-                              <li><a href="#">DINNER IDEAS</a></li>
-                              <li><a href="#">COCKTAILS & DRINKS</a></li>
-                              <li><a href="#">DESSERTS</a></li>
-                          </ul> -->
-                        <li><a href="kitchentoolsandgifts.html"> KITCHEN TOOLS AND GIFTS </a>
-                            <!-- <ul>
-                                <li><a href="#">OUR TIPS</a></li>
-                                <li><a href="#">OUR TOOLS</a></li>
-                                <li><a href="#">OUR GIFTS</a></li>
-                            </ul> -->
-                        </li>
+                        <li><a href="kitchentoolsandgifts.html"> KITCHEN TOOLS AND GIFTS </a></li>
                         <li><a href="gallery.html"> GALLERY </a></li>
-                          <!-- <ul>
-                              <li><a href="#">VIETNAM CUISINE</a></li>
-                              <li><a href="#">FRENCH CUISINE</a></li>
-                              <li><a href="#">AMERICAN CUISINE</a></li>
-                              <li><a href="#">INDIAN CUISINE</a></li>
-                              <li><a href="#">CHINESE CUISINE</a></li>
-                              <li><a href="#">ITALIAN CUISINE</a></li>
-                          </ul> -->
                         <li><a href="aboutus.html"> ABOUT US </a></li>
                         <li><a href="contactus.html"> CONTACT US </a></li>
                     </ul>
                 </div>
+                <i class="fa fa-bars"onclick="showMenu()"></i>
                 <!-- <div class="clearfix"></div> -->
             </nav>
-        </section>
-        <!-- <hr> -->
-        <div class="text-box">
-          <h1> The best Vietnamese food recipes </h1>
-          <h4> There is no sincerer love than the love of food. </h4>
-          <h5> George Bernard Shaw </h5>
-        </div>
+            <div class="text-box">
+              <h1> The Best Food Recipes </h1>
+              <p> "There is no sincerer love than the love of food." <br> George Bernard Shaw </p>
+              <a href="#" class="hero-btn">Keep Scrolling To Know More</a>
+            </div>
+       </section>
+       <!---------------Recepies-------------->
+      <section class="recepies">
+        <h2>The Best Vietnamese Cooking Recepies</h2>
+        <h3>Let's find out!</h3>
         <iframe width="800"
                 height="500"
                 src="https://www.youtube.com/embed/8CaadFo3sw0"
@@ -57,14 +45,14 @@
         <div class="flex-container">
             <div class="flex-item-left">
                 <img width="200" height="300" src="https://thewoksoflife.com/wp-content/uploads/2020/08/cha-gio-vietnamese-fried-spring-rolls-17.jpg" alt="spring rolls">
-                <h6> <a href="https://www.thespruceeats.com/wrapping-vietnamese-spring-rolls-to-eat-fry-3030425">Wrapping Vietnamese Spring Rolls (Cha Gio) for Frying </a> </h6>
+                <p> <a href="https://www.thespruceeats.com/wrapping-vietnamese-spring-rolls-to-eat-fry-3030425">Wrapping Vietnamese Spring Rolls (Cha Gio) for Frying </a> </p>
             </div>
             <div class="flex-item-right">
                 <img width="200"
                      height="300"
                      src="https://www.joyousapron.com/wp-content/uploads/2019/07/Vietnamese-Noodle-Bowl-Pic-4.jpg"
                      alt="rice noodles with barbecue">
-                <h6> <a href="https://www.thespruceeats.com/vietnamese-noodle-salad-with-lemongrass-beef-3030400"> Vietnamese Noodle Salad With Lemongrass Beef (Bun Bo Xao) </a> </h6>
+                <p> <a href="https://www.thespruceeats.com/vietnamese-noodle-salad-with-lemongrass-beef-3030400"> Vietnamese Noodle Salad With Lemongrass Beef (Bun Bo Xao) </a> </p>
             </div>
         </div>
         <div class="flex-container">
@@ -73,14 +61,14 @@
                      height="300"
                      src="https://www.recipetineats.com/wp-content/uploads/2019/04/Beef-Pho_6.jpg"
                      alt="beef noodle soup">
-                <h6> <a href="https://www.thespruceeats.com/pho-bo-soup-vietnamese-recipe-695196"> Beef noodle soup (Pho Bo) </a> </h6>
+                <p> <a href="https://www.thespruceeats.com/pho-bo-soup-vietnamese-recipe-695196"> Beef noodle soup (Pho Bo) </a> </p>
             </div>
             <div class="flex-item-left">
                 <img width="200"
                      height="300"
                      src="https://www.cooking-therapy.com/wp-content/uploads/2020/06/Com-Suon-5-scaled.webp"
                      alt="broken rice">
-                <h6> <a href="https://www.thespruceeats.com/fried-rice-vietnamese-style-3030342">Vietnamese-Style Fried Rice </a> </h6>
+                <p> <a href="https://www.thespruceeats.com/fried-rice-vietnamese-style-3030342">Vietnamese-Style Fried Rice </a> </p>
             </div>
         </div>
         <iframe width="800"
@@ -89,8 +77,8 @@
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen></iframe>
-        <hr/>
+                allowfullscreen></iframe><br><br>
+      </section>
         <div>
             <h2> Let's show us your dishes! </h2>
             <div class="container">
@@ -129,6 +117,16 @@
                 </form>
             </div>
         </div>
+        <!-----------JavaScript for Toggle Menu ----------->
+        <script>
+          var navLinks = document.getElementById("navLinks");
+          function showMenu(){
+            navLinks.style.right = "0";
+          }
+          function hideMenu(){
+            navLinks.style.right = "-200px";
+          }
+        </script>
     </body>
     <footer>
         <p>
