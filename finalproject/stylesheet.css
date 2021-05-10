@@ -84,7 +84,7 @@ nav .fa{
 
 
 /* Recepies section */
-.recepies{
+.recipe{
   width: 80%;
   margin: auto;
   text-align: center;
@@ -108,13 +108,13 @@ iframe {
   margin-right: auto;
   display: block;
 }
-/*recipes*/
-.row{
+/*recipe*/
+.recipe-row{
   margin-top: 5%;
   display: flex;
   justify-content: space-between;
 }
-.recepies-col{
+.recipe-col{
   flex-basis: 31%;
   background: #fff3f3;
   border-radius: 10px;
@@ -127,7 +127,7 @@ p{
   font-weight: 600;
   margin: 10px 0;
 }
-.recepies-col:hover{
+.recipe-col:hover{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
@@ -229,13 +229,13 @@ input[type=submit]:hover {
   .nav-links ul{
     padding: 35px;
   }
-  .recepies h2 {
+  .recipe h2 {
     font-size: 20px;
   }
-  .recepies h3 {
+  .recipe h3 {
     font-size: px;
   }
-.row{
-  flex-direction: column;
-}
+  .recipe-row{
+    flex-direction: column;
+  }
 }
