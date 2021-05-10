@@ -230,10 +230,10 @@ input[type=submit]:hover {
     padding: 35px;
   }
   .recipe h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .recipe h3 {
-    font-size: px;
+    font-size: 20px;
   }
   .recipe-row{
     flex-direction: column;
