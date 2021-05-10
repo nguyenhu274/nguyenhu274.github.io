@@ -18,9 +18,6 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav img {
-  width: 150px;
-}
 .nav-links{
 flex: 1;
 text-align: right;
@@ -48,6 +45,63 @@ text-align: right;
   width: 100%;
   transition: 0.5s;
 }
+.text-box{
+  width: 90%;
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.text-box h1 {
+  font-size: 50px;
+}
+.text-box p {
+  margin: 10px 0 40px;
+  font-size: 15px;
+  color: black;
+}
+.hero-btn{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.hero-btn:hover{
+  border: 1px solid #f44336;
+  background: #f35247;
+  transition: 1s;
+}
+nav .fa{
+  display: none;
+}
+
+
+/* Recepies section */
+.recepies{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 10%;
+}
+h2{
+  font-size: 34px;
+  font-weight: 600;
+}
+h3{
+  color: black;
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+
 /*video*/
 iframe {
   margin-left: auto;
@@ -58,7 +112,7 @@ iframe {
 .flex-container {
   display: flex;
   flex-direction: row;
-  font-size: 30px;
+  font-size: 20px;
   text-align: center;
   width: 80%;
 min-height: 100px;
@@ -101,7 +155,7 @@ label {
 }
 
 input[type=submit] {
-  background-color: #2d8665;
+  background-color: #da7f79;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -111,7 +165,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #67ca6c;
+  background-color: #f35247;
 }
 
 .container {
@@ -140,9 +194,42 @@ input[type=submit]:hover {
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
+  }
+  .text-box h1 {
+    font-size: 30px;
+  }
+  .nav-links ul li {
+    display: block;
+  }
+  .nav-links{
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: -200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+  }
+  nav .fa{
+    display: block;
+    color: black;
+    margin: 10px;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .nav-links ul{
+    padding: 35px;
+  }
+  .recepies h2 {
+    font-size: 20px;
+  }
+  .recepies h3 {
+    font-size: 15px;
   }
 }
