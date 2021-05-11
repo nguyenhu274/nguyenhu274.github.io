@@ -83,6 +83,7 @@ nav .fa{
 }
 
 
+
 /* Recepies section */
 .recipe{
   width: 80%;
@@ -123,6 +124,9 @@ p{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
 }
+
+
+
 /*video*/
 .video {
   margin-left: auto;
@@ -131,6 +135,9 @@ p{
   width: 100%;
   height: 600px;
 }
+
+
+
 /*Let's show us your dishes part*/
 h2 {
   text-align: center;
@@ -195,6 +202,31 @@ input[type=submit]:hover {
   clear: both;
 }
 
+/*footer*/
+footer{
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+}
+footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+footer p{
+  font-size: small;
+  font-weight: 300;
+}
+.icons .fa{
+  color: #f44336;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+.fa-heart-o{
+  color: #f44336;
+}
+
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .col-25, .col-75, input[type=submit] {
@@ -213,7 +245,7 @@ input[type=submit]:hover {
     height: 100vh;
     width: 200px;
     top: 0;
-    right: -250px;
+    right: -260px;
     text-align: left;
     z-index: 2;
     transition: 1s;
@@ -240,5 +272,10 @@ input[type=submit]:hover {
   .video{
     width: 100%;
     height: 50vh;
+  }
+  footer p{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: xx-small;
   }
 }
