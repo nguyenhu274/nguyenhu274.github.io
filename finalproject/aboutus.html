@@ -1,12 +1,73 @@
 <!DOCTYPE html>
-<html>
- <head>
-  <title> About us </title>
- </head>
- <body>
-   <img src="https://media1.giphy.com/media/IbBnNLbpMzpZgHpuzv/200w.webp?cid=ecf05e47oc0xpgo8pmnga23dlgaszb3fw316ogn1if5cvhvs&rid=200w.webp&ct=s" alt="pho">
-   <img src="https://media3.giphy.com/media/M9Isnh3vXeDNPLf7FV/200w.webp?cid=ecf05e47e7nyv5x4hnpqce30epdzg6n7igpvb6m78d805sor&rid=200w.webp&ct=s" alt="banh xeo">
-   <img src="https://media2.giphy.com/media/IhmXxi1PrMlSyQzLfs/200.webp?cid=ecf05e47oc0xpgo8pmnga23dlgaszb3fw316ogn1if5cvhvs&rid=200.webp&ct=s" alt="banh mi">
-   <h1> Get to know us </h1>
-
- </body>
+<html lang="en">
+    <head>
+        <title> About Us </title>
+        <link href="stylesheetaboutus.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/149f8c41cc.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <!-- nav -->
+        <section class="header">
+            <div class="text-box">
+                <h1> About Us </h1>
+            </div>
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fas fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html"> HOME </a></li>
+                        <li><a href="morerecipes.html"> MORE RECIPES </a></li>
+                        <li><a href="kitchentoolsandgifts.html"> KITCHEN TOOLS AND GIFTS </a></li>
+                        <li><a href="gallery.html"> GALLERY </a></li>
+                        <li><a href="aboutus.html"> ABOUT US </a></li>
+                    </ul>
+                </div>
+                <i class="fas fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </section>
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+        <section class="container">
+            <div class="col-25">
+                <img src="https://media1.giphy.com/media/3HHzOjoZhp7TE2oYY4/200w.webp?cid=ecf05e477s3w84tjx8lu6r1z0wy5ogmic9zw490fwczllr07&rid=200w.webp" alt="teapot">
+            </div>
+            <div class="col-75">
+                <h1>Hi, I am a Rainbow Teapot!</h1>
+                <p>I come from <b>Vietnam</b>. I am studying in <b>Finland Pathway Program</b>.</p>
+                <p>This is my personal website for the Final Project in <b>Orientation to Digital Services course</b>.</p>
+                <p>I hope you like it. Thank you.</p>
+            </div>
+        </section>
+    </body>
+    <footer>
+        <p>Connect with me at:</p>
+        <div class="icons">
+            <i class="fa fa-facebook-official"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+        </div>
+        <p> Made with <i class="fa fa-heart-o"></i> by Nhu Nguyen</p>
+        <p>
+            <a href="https://validator.w3.org/check?uri=referer">
+                <img style="border:none;height:31px;width:31px;text-decoration:none;"
+                    src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-file-html-shiny-icon-svg-wikimedia-commons-11.png"
+                    alt="Valid HTML"></a>
+            <a href="https://jigsaw.w3.org/css-validator/check/referer">
+                <img style="border:none;width:88px;height:31px;text-decoration:none;"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Valid_CSS.svg/1280px-Valid_CSS.svg.png"
+                    alt="Valid CSS"></a>
+        </p>
+    </footer>
+</html>
