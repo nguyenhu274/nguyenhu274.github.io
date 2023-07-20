@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+	<!-- Google Font -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+
+	<!-------->
+
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			-webkit-box-sizing: border-box;
+			box-sizing: border-box;
+		}
+
+
+		.navMenu {
+			font-family: 'Advent Pro', sans-serif;
+			padding: 8px;
+			text-align: center;
+			margin: 7px auto;
+			width: fit-content;
+		}
+
+		.navMenu a {
+			color: #0B6E99;
+			text-decoration: none;
+			text-transform: uppercase;
+			display: inline-block;
+			padding: 6px;
+		}
+
+		.background {
+			background-color: #DDEBF1;
+		}
+
+		.border {
+			border: 0px solid #cccccc;
+
+		}
+
+		.navMenu a:hover {
+
+			color: #d09c0b;
+		}
+	</style>
+</head>
+
+<body>
+
+	<nav class="navMenu border background">
+		<a id="home" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-house"></i> Home</a>
+		<a id="aboutme" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-user"></i> About me</a>
+		<a id="myprojects" onclick="navigate(this.id)" href="#"> <i class="fa-solid fa-bars-progress"></i> My Projects</a>
+		<a id="contactme" onclick="navigate(this.id)" href="#"> <i class="fa-regular fa-address-card"></i> Contact Me</a>
+
+
+
+
+	</nav>
+
+
+	<script>
+
+		let direction = "vertical";
+		if (direction === "vertical") {
+			document.head.insertAdjacentHTML("beforeend", `<style>.navMenu a {display: block; text-align:left; margin:7px} i{width:15px; margin-right:5px} .navMenu{margin:3px}</style>`)
+		}
+
+
+		function navigate(id) {
+
+			if (id == 'home')
+				window.open("https://ateapot.notion.site/NHU-NGUYEN-6fe8a87630684f14a5c33e6f329ebc9e?pvs=4", '_blank').focus();
+			else if (id == "aboutme")
+				window.open("https://ateapot.notion.site/About-me-6ff693a00ec740539727c1db30acc690?pvs=4", '_blank').focus();
+			else if (id == "myprojects")
+				window.open("https://ateapot.notion.site/My-Projects-01547a6d29e94336b1adb1db43ad1a3a?pvs=4", '_blank').focus();
+			else if (id == "contactme")
+				window.open("https://www.notion.so/ateapot/Contact-me-f94ffaa7fe7a4529ba88f87a552a823e?pvs=4", '_blank').focus();
+
+		}
+	</script>
+
+
+</body>
+
+</html>
